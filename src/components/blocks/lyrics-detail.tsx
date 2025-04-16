@@ -1,5 +1,3 @@
-
-
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { Calendar, User, Music, Heart } from "lucide-react";
@@ -106,7 +104,7 @@ export default function LyricsDetail() {
         {/* Right Section - Lyrics */}
         <div className="md:w-100 right-container">
           <h2 className="text-4xl font-bold mb-4 text-primary">Lyrics</h2>
-          <div className="lyrics-data bg-transparent p-4 rounded-lg text-white overflow-auto max-h-[600px] ">
+          <div className="lyrics-data bg-transparent p-4 rounded-lg overflow-auto max-h-[600px] text-foreground">
             <pre className="whitespace-pre-wrap lyricsDataContent">{lyricsDataState.lyrics}</pre>
           </div>
         </div>

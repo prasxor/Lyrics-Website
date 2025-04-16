@@ -51,8 +51,10 @@ export default function HeroWithOrbEffect() {
     navigate(`/lyrics/${id}`); 
   };
 
+
+
   return (
-    <div className="relative min-h-screen h-screen bg-black mainHeroSection">
+    <div style={{paddingTop : 0}}  className="p-0 relative min-h-screen h-screen bg-black mainHeroSection">
       {/* Background animation */}
       <div className="absolute inset-0 overflow-hidden">
         <motion.div
@@ -73,8 +75,8 @@ export default function HeroWithOrbEffect() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 flex flex-col items-center justify-center min-h-screen px-4 text-center">
-        <h1 className="text-4xl font-bold tracking-tighter text-white sm:text-6xl">
+      <div className="pt-0 relative z-10 flex flex-col items-center justify-center min-h-screen px-4 text-center">
+        <h1 className="text-4xl font-bold tracking-tighter text-white sm:text-6xl ">
           Find Your Favorite Song Lyrics
         </h1>
         <p className="max-w-[600px] mt-4 text-gray-400">

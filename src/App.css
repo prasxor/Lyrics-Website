@@ -3,10 +3,12 @@
 @tailwind utilities;
 
 body {
-  padding-top: 100px; 
-  
+  padding-top: 0; /* Removed top padding for homepage */
 }
 
+body:not([data-page="/"]) {
+  padding-top: 100px; /* Add top padding for non-home pages */
+}
 
 @layer base {
   :root {
