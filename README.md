@@ -91,7 +91,7 @@ This lyrics platform allows users to explore a library of songs, read lyrics, le
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/prasxor/lyrics-website.git
+git clone https://github.com/prasxor/Lyrics-Website.git
 cd lyrics-website
 npm install
 npm run dev
